@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  width: 100vh;
+  border: 20px solid rgb(0, 0, 0);
+}
+
+.child1 {
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+}
+
+.child2 {
+  width: 200px;
+  height: 200px;
+  background:cadetblue;
+}
+
+.child3{
+  width: 200px;
+  height: 200px;
+  background: orange;
+}
+.child4{
+  width: 200px;
+  height: 200px;
+  background: darkgrey;
+}

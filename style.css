@@ -5,29 +5,32 @@
 }
 
 .flex-container {
-  width: 100vh;
-  border: 20px solid rgb(0, 0, 0);
+  width: 100%;
+  display: flex;
+
 }
 
-.child1 {
-  width: 200px;
-  height: 200px;
+.header {
   background: lightblue;
+  padding: 40px 20px;
 }
 
-.child2 {
-  width: 200px;
-  height: 200px;
+.section1 {
   background:cadetblue;
+  width: 50%;
+  height: 100vh;
+
+
 }
 
-.child3{
-  width: 200px;
-  height: 200px;
+.section2 {
   background: orange;
+  width: 50%;
+  height: 100vh;
+ 
+
 }
-.child4{
-  width: 200px;
-  height: 200px;
+.footer{
   background: darkgrey;
+  padding: 40px 20px;
 }
